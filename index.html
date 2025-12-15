@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Машинное обучение — аналитика, модели и технологии</title>
+    <meta name="description" content="Информационный сайт о машинном обучении: алгоритмы, аналитика данных, примеры применения и современные ML-технологии.">
+    <meta name="keywords" content="машинное обучение, ML, анализ данных, нейронные сети, искусственный интеллект">
+
+    <!-- Централизованные стили -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- Запрет копирования контента -->
+    <meta name="robots" content="index, follow">
+
+    <!-- Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-MLPROJECT01"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-MLPROJECT01');
+    </script>
+
+    <!-- Yandex.Metrika -->
+    <script type="text/javascript">
+        (function(m,e,t,r,i,k,a){
+            m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+            m[i].l=1*new Date();
+            k=e.createElement(t),a=e.getElementsByTagName(t)[0],
+            k.async=1,k.src=r,a.parentNode.insertBefore(k,a)
+        })(window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+
+        ym(99999999, "init", {
+            clickmap:true,
+            trackLinks:true,
+            accurateTrackBounce:true
+        });
+    </script>
+    <noscript>
+        <div>
+            <img src="https://mc.yandex.ru/watch/99999999" style="position:absolute; left:-9999px;" alt="" />
+        </div>
+    </noscript>
+
+
+</head>
+
+<body oncontextmenu="return false">
+
+    <!-- Шапка сайта -->
+    <header>
+        <h1>Машинное обучение</h1>
+        <p>Аналитика данных и интеллектуальные технологии</p>
+    </header>
+
+    <!-- Навигация -->
+    <nav>
+        <ul>
+            <li><a href="index.html">Главная</a></li>
+            <li><a href="about.html">О проекте</a></li>
+            <li><a href="ml.html">Машинное обучение</a></li>
+            <li><a href="analytics.html">Аналитика</a></li>
+            <li><a href="contacts.html">Контакты</a></li>
+        </ul>
+    </nav>
+
+    <!-- Основной контент -->
+    <main>
+        <section>
+            <h2>О сайте</h2>
+            <p>
+                Данный сайт посвящён современным методам машинного обучения,
+                анализу данных и практическому применению интеллектуальных алгоритмов
+                в реальных информационных системах.
+            </p>
+        </section>
+
+        <section>
+            <h2>Основные направления</h2>
+            <ul>
+                <li>Классическое машинное обучение</li>
+                <li>Нейронные сети и глубокое обучение</li>
+                <li>Аналитика и визуализация данных</li>
+                <li>Интеллектуальные информационные системы</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Онлайн-статус сервера</h2>
+            <p>
+                Активных пользователей на сайте:
+                <span id="online-users">0</span>
+            </p>
+        </section>
+    </main>
+
+    <!-- Низ сайта -->
+    <footer>
+        <p>© 2025 Машинное обучение</p>
+
+        <!-- Место для счётчиков -->
+        <div id="counters">
+            <p>Счётчики посещаемости</p>
+        </div>
+    </footer>
+
+    <!-- Основной JavaScript -->
+    <script src="js/main.js"></script>
+
+    <!-- Блокировка копирования текста -->
+    <script>
+        document.addEventListener('copy', function (e) {
+            e.preventDefault();
+            alert('Копирование контента запрещено.');
+        });
+    </script>
+
+</body>
+</html>
