@@ -21,3 +21,14 @@ document.addEventListener('keydown', function (e) {
         alert('Действие запрещено.');
     }
 });
+
+// Имитация активности пользователей
+const onlineSpan = document.getElementById('online-users');
+
+if (onlineSpan) {
+    setInterval(() => {
+        const randomUsers = Math.floor(Math.random() * 10) + 1;
+        onlineSpan.textContent = randomUsers;
+    }, 5000);
+}
+
